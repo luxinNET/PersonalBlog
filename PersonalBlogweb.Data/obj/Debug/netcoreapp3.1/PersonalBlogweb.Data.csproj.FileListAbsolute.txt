@@ -1,0 +1,9 @@
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\bin\Debug\netcoreapp3.1\PersonalBlogweb.Data.deps.json
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\bin\Debug\netcoreapp3.1\PersonalBlogweb.Data.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\bin\Debug\netcoreapp3.1\PersonalBlogweb.Data.pdb
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.csprojAssemblyReference.cache
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.AssemblyInfoInputs.cache
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.AssemblyInfo.cs
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.csproj.CoreCompileInputs.cache
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Data\obj\Debug\netcoreapp3.1\PersonalBlogweb.Data.pdb
