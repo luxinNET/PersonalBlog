@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalBlogweb.Common\PersonalBlogweb.Common.csproj" />
+    <ProjectReference Include="..\PersonalBlogweb.Entity\PersonalBlogweb.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

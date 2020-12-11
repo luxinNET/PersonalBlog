@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalBlogweb.Common\PersonalBlogweb.Common.csproj" />
+    <ProjectReference Include="..\PersonalBlogweb.Data\PersonalBlogweb.Data.csproj" />
+    <ProjectReference Include="..\PersonalBlogweb.Entity\PersonalBlogweb.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,6 @@
-﻿use PersonalBlogweb
+﻿go
+use PersonalBlogweb
+
 go
 create table BlogPosts
 (

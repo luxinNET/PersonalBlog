@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "2UXZEnFUTysyWZDta/Ta/jEQX93rtghkfVGJ/E90qlQLlpk3wQljuq+8A207BDEV8SEo7F2HFvKwrRfERfZefQ==",
+  "dgSpecHash": "qFP2tph7t0muWSWQDA5j6REMRcZqJH+m00Gv7U0tOAlx9lB5a3sJWMuaqndnBa5LHaV7qu9gmQvFbGiHnimkKQ==",
   "success": true,
   "projectFilePath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

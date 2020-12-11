@@ -7,3 +7,10 @@ D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\obj\Debug\netcoreapp3.1\
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\obj\Debug\netcoreapp3.1\PersonalBlogweb.Domain.csproj.CoreCompileInputs.cache
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\obj\Debug\netcoreapp3.1\PersonalBlogweb.Domain.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\obj\Debug\netcoreapp3.1\PersonalBlogweb.Domain.pdb
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Common.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Entity.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Common.pdb
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Entity.pdb
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\obj\Debug\netcoreapp3.1\PersonalBlogweb.Domain.csproj.CopyComplete
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Data.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Domain\bin\Debug\netcoreapp3.1\PersonalBlogweb.Data.pdb

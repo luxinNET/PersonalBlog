@@ -4,14 +4,14 @@
     "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj": {}
   },
   "projects": {
-    "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj": {
+    "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj",
-        "projectName": "PersonalBlogweb.Domain",
-        "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj",
+        "projectUniqueName": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj",
+        "projectName": "PersonalBlogweb.Common",
+        "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\obj\\",
+        "outputPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,6 +44,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,12 +80,256 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\PersonalBlogweb.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\PersonalBlogweb.Data.csproj",
+        "projectName": "PersonalBlogweb.Data",
+        "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\PersonalBlogweb.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj": {
+                "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj"
+              },
+              "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj": {
+                "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj",
+        "projectName": "PersonalBlogweb.Domain",
+        "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj": {
+                "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Common\\PersonalBlogweb.Common.csproj"
+              },
+              "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\PersonalBlogweb.Data.csproj": {
+                "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Data\\PersonalBlogweb.Data.csproj"
+              },
+              "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj": {
+                "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj",
+        "projectName": "PersonalBlogweb.Entity",
+        "projectPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\PersonalBlogweb.Entity.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
