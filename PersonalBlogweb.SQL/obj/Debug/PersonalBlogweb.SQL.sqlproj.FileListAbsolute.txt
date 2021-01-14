@@ -1,7 +1,6 @@
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\bin\Debug\PersonalBlogweb.SQL.dacpac
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\bin\Debug\PersonalBlogweb.SQL.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\bin\Debug\PersonalBlogweb.SQL.pdb
-D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\obj\Debug\PersonalBlogweb.SQL.sqlprojAssemblyReference.cache
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\obj\Debug\PersonalBlogweb.SQL.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\obj\Debug\PersonalBlogweb.SQL.pdb
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.SQL\obj\Debug\Model.xml

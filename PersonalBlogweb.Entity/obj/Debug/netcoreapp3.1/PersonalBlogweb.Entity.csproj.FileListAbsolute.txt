@@ -1,7 +1,6 @@
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\bin\Debug\netcoreapp3.1\PersonalBlogweb.Entity.deps.json
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\bin\Debug\netcoreapp3.1\PersonalBlogweb.Entity.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\bin\Debug\netcoreapp3.1\PersonalBlogweb.Entity.pdb
-D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\obj\Debug\netcoreapp3.1\PersonalBlogweb.Entity.csprojAssemblyReference.cache
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\obj\Debug\netcoreapp3.1\PersonalBlogweb.Entity.AssemblyInfoInputs.cache
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\obj\Debug\netcoreapp3.1\PersonalBlogweb.Entity.AssemblyInfo.cs
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.Entity\obj\Debug\netcoreapp3.1\PersonalBlogweb.Entity.csproj.CoreCompileInputs.cache

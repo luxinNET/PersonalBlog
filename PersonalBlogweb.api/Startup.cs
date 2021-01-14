@@ -42,6 +42,9 @@ namespace PersonalBlogweb.api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => {
+                options.AddPolicy("any", builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); });
+            });
             // If using Kestrel:
             services.Configure<KestrelServerOptions>(options =>
             {
@@ -113,6 +116,7 @@ namespace PersonalBlogweb.api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("any");
             app.UseHttpsRedirection();
 
             // 启用Swagger中间件

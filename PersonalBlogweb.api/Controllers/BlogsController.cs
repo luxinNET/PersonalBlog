@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -16,6 +17,7 @@ namespace PersonalBlogweb.api
     [CustomActionFilter]
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class BlogsController : BaseController
     {
         private readonly ILogger _logger;

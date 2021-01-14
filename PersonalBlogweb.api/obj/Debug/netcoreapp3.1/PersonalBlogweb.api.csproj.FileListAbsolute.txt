@@ -39,7 +39,7 @@ D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\Mic
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\obj\Debug\netcoreapp3.1\PersonalBlogweb.api.MvcApplicationPartsAssemblyInfo.cs
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\NLog.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\BNU\PersonalBlog\PersonalBlog\PersonalBlogweb.api\obj\Debug\netcoreapp3.1\PersonalBlogweb.api.MvcApplicationPartsAssemblyInfo.cs

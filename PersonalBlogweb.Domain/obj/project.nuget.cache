@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zsnQp428MQ0s2CMEVRDGjp4q7jzO9EGo5QAuAIOyLJPyQ1YdpmaYfEoO5qRp368bRFThezTF9a+98z5TUHaRbA==",
+  "dgSpecHash": "trxgxuMtzQYb3Z16P2J+auA2t6yr0HraHQyZMAzuFi0/9aqLC/3V6TsMm4c2Z1fuVWNmWEMPxAjNh3LurmZ8mA==",
   "success": true,
   "projectFilePath": "D:\\BNU\\PersonalBlog\\PersonalBlog\\PersonalBlogweb.Domain\\PersonalBlogweb.Domain.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

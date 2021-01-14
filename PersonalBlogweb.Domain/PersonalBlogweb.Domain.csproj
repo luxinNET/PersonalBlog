@@ -14,4 +14,8 @@
     <ProjectReference Include="..\PersonalBlogweb.Entity\PersonalBlogweb.Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service\backweb\" />
+  </ItemGroup>
+
 </Project>
